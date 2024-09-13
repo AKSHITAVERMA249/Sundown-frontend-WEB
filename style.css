@@ -152,7 +152,6 @@ nav{
     font-size: 11vw;
     line-height: 10vw;
     text-align: right;
-    margin-right: 4vw;
     z-index: 99;
 }
 #page1 video{
@@ -431,7 +430,7 @@ nav{
 }
 
 #page4{
-    height:120vh;
+    height:135vh;
     /* width:100%; */
     background-color: #EFEAE3;
     padding: 2vw 2.5vw;
@@ -530,7 +529,7 @@ nav{
     color: rgba(0, 0, 0, 0.712);
     font-weight: 100;
    border-left: 1px solid rgb(171, 166, 166);
-   width: 20%;
+   width: 30%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0 15px;
   }
