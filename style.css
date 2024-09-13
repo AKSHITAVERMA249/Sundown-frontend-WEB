@@ -1,10 +1,10 @@
 * {
     margin : 0;
     padding : 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     font-family: "font-family: "Gill Sans", sans-serif;"
 }
-hyml, body {
+html, body {
     height: 100%;
     width: 100%;
 }
@@ -69,7 +69,7 @@ hyml, body {
 }
 nav{
     padding: 2vw 0vw;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -322,7 +322,7 @@ nav{
 }
 .elem{
     height: 120px;
-    width: 100%;
+    /* width: 100%; */
     background-color:#EFEAE3;
     
     border-bottom: 0.7px solid rgb(69, 65, 65);
@@ -431,8 +431,8 @@ nav{
 }
 
 #page4{
-    min-height:80vh;
-    width:100%;
+    height:120vh;
+    /* width:100%; */
     background-color: #EFEAE3;
     padding: 2vw 2.5vw;
     display: flex;
@@ -521,7 +521,7 @@ nav{
 }
 #page4 .swiper {
     width: 100%;
-    height: 30%;
+    height: 40%;
    
   }
 
@@ -739,9 +739,9 @@ font-weight: 10;
         margin-left: 4%;
     }
     #hero-shape{
-        position:absolute;
-        width: 80vw;
-        height: 70vw;
+        /* position:absolute;
+        width: 40vw;
+        height: 30vw;
         background-color: #fe330a;
         border-radius: 40%;
         right: 0;
@@ -751,7 +751,8 @@ font-weight: 10;
         animation-duration: 3s;
         animation-timing-function: linear;
         animation-direction: alternate-reverse;
-        animation-iteration-count: infinite;
+        animation-iteration-count: infinite; */
+        display: none;
     }
     
     #page2{
@@ -872,7 +873,7 @@ font-weight: 10;
 
     #page4{
         min-height:80vh;
-        width:100%;
+        /* width:100%; */
         background-color: #EFEAE3;
         padding: 2vw 2.5vw;
         display: flex;
